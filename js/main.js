@@ -28,7 +28,6 @@ function iniciarPagina() {
     botonvalidar.addEventListener("click", Validar);
 
 
-
     //############################### TABLA DINAMICA ########################
 
     let baseURL = 'https://web-unicen.herokuapp.com/api/groups/';
