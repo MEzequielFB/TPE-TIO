@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 320px)  {
+    body{
+        background: linear-gradient(to right, rgb(149, 193, 223) ,rgb(243, 184, 178));
+    }
+
+    header{
+        position: sticky;
+        top: 0;
+        margin: 0;
+    }
+    .menuDesplegable {
+        padding: 30px;
+        background-color: gray;
+        color: white;
+        text-align: center;
+    }
+    
+    nav{
+        border-bottom: 4px solid gray;
+        width: 100%;
+        background-color: black; 
+    }
+
+    ul.botonera.columna {
+        display: flex;
+}
+
+    .botonera {
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .botonera li {
+        list-style: none;
+        margin: 0px 0px;
+        padding: 15px 20px;
+    }
+    
+    .botonera li a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .boton:hover {
+        background-color: gray;
+    }
+    
+    h1{
+        text-align: center;
+        color: black;
+        font-size: 60px
+    }
+    
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .noticias{
+        background-color: #FDEDEC;
+        padding: 30px;
+        margin: 20px;
+        border: 1px solid black;
+    }
+    
+    .imagen1{
+        width: 100%;
+        height: 300px;
+        box-shadow: 0px 4px 3px rgba(0,0,0,0.5);
+    }
+    
+    .imagen2, .imagen3{
+        width: 100%;
+        box-shadow: 0px 4px 3px rgba(0,0,0,0.5);
+    }
+    
+    .imagen4{
+        width: 100%;
+        left: 200px;
+        box-shadow: 0px 4px 3px rgba(0,0,0,0.5); 
+    }
+    
+    .noticias h2{
+        text-align: center;
+        font-family: sans-serif;
+        text-decoration: underline;
+        padding: 10px;
+    }
+
+    .theadFemenino{
+        background-color: #cda48e;
+        color: white;
+    }
+    
+    table, td, tr{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    .tablaFemenino, .lista{
+        padding: 20px;
+        margin:20px;
+        background-color: #FDEDEC;
+        border: 1px solid black;
+    }
+    
+    .lista ul{
+        text-align: center;
+        list-style: none;
+        padding: 20px;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .lista h2{
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    table{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .tablaMasculino, .formulario, .tablaDinamica{
+        padding: 20px;
+        margin: 20px;
+        background-color: #EBF5FB;
+        border: 1px solid black;
+    }
+    
+    .theadMasculino{
+        background-color: cadetblue;
+    }
+    
+    .tablaMasculino h2{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .tablaDinamica h2, h3{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .editarTabla{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #errorEditar, #error{
+        text-align:center;
+        font-size:20px;
+        color: red;
+    }
+
+    .divEditar{
+        padding: 50px;
+    }
+
+    button{
+        background-color: #EBF5FB;
+        border: 2px solid  cadetblue;
+    }   
+
+    .tablaFemenino h2{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+ 
+    .formularioTabla{
+        margin: 20px 0;
+        font-size: 20px;
+       
+    }
+    .formulario{
+        box-shadow: 4px 0px 4px 4px rgba(0,0,0,0.5);
+        font-size: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .formulario form{
+        padding: 20px;
+    }
+    
+    #registrado{
+        text-align: center;
+        font-family: cursive;
+        font-size: 30px;
+        padding: 20px;
+    }
+    
+    footer{
+        background-color: black;
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 660px)  {
+
+    .menuDesplegable {
+        display: none;
+     }
+ 
+    .botonera {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+    }
+
+    .boton {
+        border: 1px solid rgba(255, 255, 255, 0.192);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        text-align: center;
+        flex-grow: 1;
+      }
+    
+    
+}
+
+@media only screen and (min-width: 1024px)  {
+   
+    .contenedor{
+        flex-direction: row;
+    }
+    .noticia1{
+        width: 60%;
+    }
+    .noticia2{
+        width: 40%;
+    }
+    .noticia3, .noticia4{
+        width: 50%;
+    }
+  .formulario{
+      width: 100%;
+  }
+    .tablaFemenino, .lista{
+        width: 50%;
+    }
+    .tablaMasculino, .tablaDinamica{
+        width: 50%;
+    }
+ }
