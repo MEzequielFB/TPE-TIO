@@ -202,6 +202,7 @@
                 <li>Eliana Stábile (Defensora)</li>
                 <li>Justina Morcillo (Mediocampista)</li>
                 <li>Cecilia Ghigo (Defensora)</li>
+                <li>Vanina Correa (Arquera)</li>
             </ul>
         </div>
     </div>
