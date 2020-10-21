@@ -21,6 +21,7 @@ function iniciarPagina() {
             registrado.innerHTML = "No registrado, intente de nuevo!";
         }
     }
+    console.log(Validar());
 
     crearCaptcha();
 
@@ -72,7 +73,8 @@ function iniciarPagina() {
         })
 
     }
-
+    console.log(enviarInformacion());
+    
     document.querySelector("#enviar").addEventListener('click', enviarInformacion);
 
     function mostrarInformacion() {
