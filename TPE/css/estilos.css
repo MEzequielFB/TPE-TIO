@@ -205,27 +205,3 @@
         text-align: center;
     }
 }
-
-@media only screen and (min-width: 660px)  {
-
-    .menuDesplegable {
-        display: none;
-     }
- 
-    .botonera {
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        background-color: black;
-    }
-
-    .boton {
-        border: 1px solid rgba(255, 255, 255, 0.192);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 25px;
-        text-align: center;
-        flex-grow: 1;
-      }
-    
-    
-}
