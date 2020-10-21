@@ -227,5 +227,30 @@
         flex-grow: 1;
       }
     
-    
+
 }
+
+@media only screen and (min-width: 1024px)  {
+   
+    .contenedor{
+        flex-direction: row;
+    }
+    .noticia1{
+        width: 60%;
+    }
+    .noticia2{
+        width: 40%;
+    }
+    .noticia3, .noticia4{
+        width: 50%;
+    }
+  .formulario{
+      width: 100%;
+  }
+    .tablaFemenino, .lista{
+        width: 50%;
+    }
+    .tablaMasculino, .tablaDinamica{
+        width: 50%;
+    }
+ }
